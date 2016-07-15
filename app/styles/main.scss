@@ -2,7 +2,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
-
+@import url(https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display+SC);
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -144,6 +144,7 @@ body {
       height:8vh;
       padding:0;
 
+
          -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
         -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
         box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);  
@@ -155,6 +156,7 @@ body {
           padding:1.5%;
           font-size:1.2em;
           width:20%;
+          font-family:'Playfair Display SC',serif;
         }
 
       }
@@ -162,20 +164,29 @@ body {
 
 
     #deskPackContainer {
-        #innerDeskPackContainer {
-          color:white;
-          position:relative;
+      position:relative;
           z-index:50;
       
-      height:30vh;
-      padding:0;
+        #innerDeskPackContainer {
+          color:white;
+          
+        height:30vh;
+          padding:0;
+          margin-bottom:5%;
+
+          
 
 
-           #innerDeskPackConLeft {
-              background:#404040;
+          .innerDeskPackEven {
+            height:100%;
+            
+            padding:0;
+            #innerDeskPackConLeft {
+               background:#404040;
               height:100%;
               position:relative;
-              z-index:99;
+              font-family:'Playfair Display SC',serif;
+              
 
 
 
@@ -183,31 +194,45 @@ body {
               -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
               -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
               box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);  
+
            }
             #innerDeskPackConRight { 
-              background:url(http://placekitten.com/200/300)no-repeat;
-              background-size:cover;
+              background:url(http://placekitten.com/600/800)no-repeat;
+              background-size:100% 100%;
               height:100%;
               position:relative;
-              z-index:50;
+              
               -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
               -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
               box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75); 
             }
-
-
-          .innerDeskPackEven {
-            #innerDeskPackConLeft {
-
-           }
-            #innerDeskPackConRight { 
-            }
           }
           .innerDeskPackOdd {
+            height:100%;
+            
+            padding:0;
             #innerDeskPackConLeft {
+              background:url(http://placekitten.com/600/800)no-repeat;
+              background-size:100% 100%;
+              height:100%;
+              position:relative;
+             
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75); 
 
             }
-            #innerDeskPackConRight { 
+            #innerDeskPackConRight {
+               background:#404040;
+              height:100%;
+              position:relative;
+             font-family:'Playfair Display SC',serif;
+
+
+
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
             }
           }
 
