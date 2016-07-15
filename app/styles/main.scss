@@ -12,6 +12,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 body {
   padding: 0;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFElEQVQYlWNgGDTgPw728LYaJwAALJkD/V8OjiIAAAAASUVORK5CYII=) repeat, #333;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -37,55 +38,210 @@ body {
 }
 
 /* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+#navMenuedDesk {
+  height:40vh;
+  position:fixed;
+  bottom:0;
+  background:url(/images/NavMenu2_05.png)no-repeat;background-size:contain;padding:0;
+     background-position:0% 130%;
+  
+  padding:0;
+   
+    #navMenuDeskInner {
+     
+       height:100%;
+       float:right;
+
+
+       .navMenuDeskLinks {
+        
+        position:relative;
+        top:71%;
+        height:29%;
+        font-size:3.0em;
+        font-family:'Times New Roman', Times, serif;
+       
+        text-align:center;
+        padding:4%;
+
+            a{
+              text-decoration:none;
+              color:#817258;
+            }
+            a:hover {
+               border-bottom:3px solid #817258;
+              color:#817258;
+              text-decoration:none;
+            }
+             a:active {
+               border-bottom:3px solid #817258;
+              color:#817258;
+              text-decoration:none;
+            }
+
+
+
+       }
+
+    }
+
+
+
 }
+#deskMain {
+  padding:0;
+  height:88.5vh;
+  padding:0;
+  
+  #deskMainTextBox{
+    height:100%;
+    
+    padding-top:4%;
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
+      #deskInnerTopBox {
+        background:#404040;
+        height:40%;
+        -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        margin-bottom:10%;
+      }
+      #deskInnerBottomBox {
+          background:#404040;
+        height:40%;
+       -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+      }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
   }
+
+  #deskMainPicBox {
+    height:100%;
+   
+    background:url(/images/NYCoutline_03.png)no-repeat;
+    background-size:contain;
+  }
+
+
+  
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+#deskPackages {
+  
+  padding:0;
 
-  p + h4 {
-    margin-top: 28px;
-  }
+    #deskPackNav {
+      padding:1%;
+      margin-bottom:2%;
+      position:relative;
+      z-index:100;
+
+      #innerDeskPackNav {
+      color:white;
+      background:#404040;
+      height:8vh;
+      padding:0;
+
+         -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+        box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);  
+
+        .innerDeskPackNavNames {
+          cursor:pointer;
+          height:100%;
+          text-align:center;
+          padding:1.5%;
+          font-size:1.2em;
+          width:20%;
+        }
+
+      }
+    }
+
+
+    #deskPackContainer {
+        #innerDeskPackContainer {
+          color:white;
+          position:relative;
+          z-index:50;
+      
+      height:30vh;
+      padding:0;
+
+
+           #innerDeskPackConLeft {
+              background:#404040;
+              height:100%;
+              position:relative;
+              z-index:99;
+
+
+
+
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);  
+           }
+            #innerDeskPackConRight { 
+              background:url(http://placekitten.com/200/300)no-repeat;
+              background-size:cover;
+              height:100%;
+              position:relative;
+              z-index:50;
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75); 
+            }
+
+
+          .innerDeskPackEven {
+            #innerDeskPackConLeft {
+
+           }
+            #innerDeskPackConRight { 
+            }
+          }
+          .innerDeskPackOdd {
+            #innerDeskPackConLeft {
+
+            }
+            #innerDeskPackConRight { 
+            }
+          }
+
+        }
+
+
+    }
+
+
+
+
+
+
+}
+/*DESK PACKAGES END HERE*/
+
+
+#scopeBody {
+  border-bottom:5px solid black;
+  height:89vh;
+  overflow:auto;
+  padding:0;
+  -webkit-box-shadow: inset -4px -42px 38px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -4px -42px 38px -26px rgba(0,0,0,0.75);
+box-shadow: inset -4px -42px 38px -26px rgba(0,0,0,0.75)
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+@media screen and (min-width: 1280px) {
+  
+}
+@media screen and (min-width: 1440px) {
+  
+}
+@media screen and (min-width: 1980px) {
+ 
 }
