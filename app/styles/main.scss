@@ -46,7 +46,13 @@ body {
      background-position:0% 130%;
   
   padding:0;
-   
+    
+    #navMenuDeskHome{
+      height:29%;
+      position:relative;
+      top:71%;
+    }
+
     #navMenuDeskInner {
      
        height:100%;
@@ -66,16 +72,16 @@ body {
 
             a{
               text-decoration:none;
-              color:#817258;
+              color:#C6AF87;
             }
             a:hover {
-               border-bottom:3px solid #817258;
-              color:#817258;
+               border-bottom:3px solid #C6AF87;
+              color:#C6AF87;
               text-decoration:none;
             }
              a:active {
-               border-bottom:3px solid #817258;
-              color:#817258;
+               border-bottom:3px solid #C6AF87;
+              color:#C6AF87;
               text-decoration:none;
             }
 
@@ -186,7 +192,7 @@ body {
               height:100%;
               position:relative;
               font-family:'Playfair Display SC',serif;
-              
+              text-align:right;              
 
 
 
@@ -197,8 +203,8 @@ body {
 
            }
             #innerDeskPackConRight { 
-              background:url(http://placekitten.com/600/800)no-repeat;
-              background-size:100% 100%;
+              
+              background-size:contain;
               height:100%;
               position:relative;
               
@@ -212,8 +218,8 @@ body {
             
             padding:0;
             #innerDeskPackConLeft {
-              background:url(http://placekitten.com/600/800)no-repeat;
-              background-size:100% 100%;
+              
+              background-size:contain;
               height:100%;
               position:relative;
              
@@ -227,7 +233,7 @@ body {
               height:100%;
               position:relative;
              font-family:'Playfair Display SC',serif;
-
+             text-align:left;
 
 
               -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
@@ -248,7 +254,64 @@ body {
 
 }
 /*DESK PACKAGES END HERE*/
+/*DESK DETAIL PACKAGES START HERE*/
+#deskPackDetail {
+  padding:0;
+  padding-top:1%;
 
+
+    #innerDeskPackDetail{
+      height:88.5vh;
+      padding:0;
+      
+      #innerLongPic{
+        padding:0;
+        height:60%;
+        margin-bottom:2%;
+
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+
+
+            #innerDeskPackPicBack{
+             height:100%;
+       
+        
+
+          }
+      }
+      #innerDeskPackMap{
+        background:url(/images/NYCoutline_03.png)no-repeat;
+         background-size:100%100%;
+         height:100%;
+         margin-bottom:1%;
+ 
+  
+      }
+      #innerDeskPackDetailTextOne {
+        height:100%;
+        margin-bottom:1%;
+         #innerDeskText{
+          background:#404040;
+            padding:1%;
+              position:relative;
+             font-family:'Playfair Display SC',serif;
+             text-align:left;
+
+
+              -webkit-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              -moz-box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+              box-shadow: 32px 30px 41px 18px rgba(0,0,0,0.75);
+         }
+      }
+
+    }
+
+}
+
+
+/*DESK DETAIL PACKAGES END HERE*/
 
 #scopeBody {
   border-bottom:5px solid black;

@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/packages.html',
         controller: 'PackagesCtrl'
       })
+      .when('/pack/:dealId', {
+        templateUrl: 'views/pack.html',
+        controller: 'PackCtrl'
+      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
